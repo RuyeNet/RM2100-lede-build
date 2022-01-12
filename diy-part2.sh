@@ -27,13 +27,13 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/diy
 
 # openclash
 wget -P package/diy/openclash -c https://github.com/vernesong/OpenClash/archive/refs/heads/master.zip
+unzip -o package/diy/openclash/master.zip -d package/diy/openclash/
 
 #openwrt-v2ray
 git clone https://github.com/kuoruan/openwrt-v2ray.git package/diy/openwrt-v2ray
 
 #luci-app-v2ray
-git clone -b luci2 https://github.com/kuoruan/luci-app-v2ray.git package/diy/luci-app-v2ray
-unzip -o package/diy/openclash/master.zip  -d package/diy/openclash/
+git clone -b legacy https://github.com/kuoruan/luci-app-v2ray.git package/diy/luci-app-v2ray
 
 # 编译 po2lmo
 pushd package/diy/openclash/OpenClash-master/luci-app-openclash/tools/po2lmo
