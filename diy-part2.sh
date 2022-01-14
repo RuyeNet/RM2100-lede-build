@@ -43,3 +43,6 @@ popd
 
 # luci-app-aliddns
 git clone https://github.com/chenhw2/luci-app-aliddns.git  package/diy/luci-app-aliddns
+
+# openwrt_nezha
+git clone https://github.com/Erope/openwrt_nezha.git package/diy/openwrt_nezha
